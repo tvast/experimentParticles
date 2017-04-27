@@ -392,7 +392,7 @@ if(typeof(_scit_bklet_window)=="undefined"){
             if (!img || !("width" in img) || !("height" in img)) {
                 return;
             }
-            this.createArrayIfNotExists(data, "imgs");
+            this.createArrayIfNotExists(data, "imgs")
             if (!("type" in img)) {
                 img["type"] = "unknown";
             }
